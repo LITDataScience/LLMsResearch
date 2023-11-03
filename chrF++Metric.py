@@ -53,7 +53,7 @@ def chrF_plus_plus(reference, candidate, max_n=5, beta=3.0):
 
 # Sample usage
 reference = "Hello, my name is Rudra"
-candidate = "Hello, my name is Rudra"
+candidate = "I am a cute penguin!"
 
 chrF_plus_plus_score = chrF_plus_plus(reference, candidate)
 print("chrF++ Score: ", chrF_plus_plus_score)
